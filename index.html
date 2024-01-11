@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Birthday</title>
+</head>
+<body>
+  <!--<div class="animationLoader">
+    <div class="animationLoader__image"></div>
+  </div>-->
+  <header class="header">
+    <div class="header__container">
+      <a href="./index.html"><img src="./img/header/logo.png" alt="" class="logo"></a>
+        <button class="header__button" onclick="document.location='https://t.me/LVSTDVNCE'">Let's talk
+          <img src="./img/header/arrow.png" alt="" class="button__img">
+        </button>
+    </div>
+  </header>
+  <div class="btn-up btn-up_hide"></div>
+  <main class="main">
+    <!--<div class="main-buttons">
+      <button class="button-up">
+        <img src="./img/main-buttons/up.png" alt="">
+      </button>
+      <button class="button-down">
+        <img src="./img/main-buttons/down.png" alt="">
+      </button>
+    </div>-->
+    <section class="section-one">
+      <div class="section-one__wrapper">
+        <p>Алина,<br>
+          с днём<br>
+          рождения!
+       </p>
+       <!--тут нужно будет заменить на видео-->
+       <video class="section-one-video" autoplay muted="muted" loop controls src="./img/vid.MP4"></video>
+      </div>
+    </section>
+    <!--тут будет карусель с карточками-->
+    <section class="section-two">
+      <div id="carousel" class="carousel">
+        <button class="arrow prev">&lt;</button>
+        <div class="gallery">
+          <ul>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">Кто-то</p>
+                <img class="gallery-item__img" src="./img/14.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">вообще</p>
+                <img class="gallery-item__img" src="./img/9.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">сегодня</p>
+                <img class="gallery-item__img" src="./img/10.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">не проснулся</p>
+                <img class="gallery-item__img" src="./img/11.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">В отличие</p>
+                <img class="gallery-item__img" src="./img/12.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">от тебя</p>
+                <img class="gallery-item__img" src="./img/13.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">Так что</p>
+                <img class="gallery-item__img" src="./img/5.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">мой</p>
+                <img class="gallery-item__img" src="./img/15.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">совет</p>
+                <img class="gallery-item__img" src="./img/2.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">тебе —</p>
+                <img class="gallery-item__img" src="./img/1.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery-item">
+                <p class="gallery-item__para">— улыбнуться</p>
+                <img class="gallery-item__img" src="./img/6.jpg" alt="">
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="arrow next">&gt;</button>
+      </div>
+    </section>
+    <!--тут будут всплывающие блоки с пожеланиями-->
+    <section class="section-three">
+      <p class="section-three__para"><span class="para__num">1.</span> <span class="para__text"> Верных друзей</span></p>
+      <p class="section-three__para"><span class="para__num">2.</span> <span class="para__text"> Сбываться мечтам</span></p>
+      <p class="section-three__para"><span class="para__num">3.</span> <span class="para__text"> Не унывать</span></p>
+      <p class="section-three__para"><span class="para__num">4.</span> <span class="para__text"> Улыбаться чаще</span></p>
+    </section>
+    <!--тут будет коллаж с фотографиями-->
+    <section class="section-four">
+      <div class="section-four__wrapper">
+        <img class="section-four__img section-four__img-first" src="./img/16.jpg" alt="">
+        <video class="section-four__img section-four__img-second" autoplay muted="muted" loop controls src="./img/bereza.mp4" alt=""></video>
+        <img class="section-four__img section-four__img-third" src="./img/horizontal.jpg" alt="">
+      </div>
+    </section>
+    <!--это секция с подарком и поп-ап-->
+    <section class="section-five">
+      <div class="section-five-wrapper">
+        <p class="section-five__para">для тебя</p>
+        <img class="section-five__img" src="./img/flowers.jpg" alt="">
+        <button class="section-five__btn"  onclick="document.location='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">забрать</button>
+      </div>
+      <div class="popup__bg"> 
+        <!--<div class="popup">
+            <img src="./img/closeBtn.png" class="close-popup">
+            <p class="popup__para">Пример текста</p>
+            <img class="popup__img" src="" alt="">
+        </div>-->
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <p class="footer__heading">Get in touch</p>
+      <!--<p class="footer__para">Пример текста</p>-->
+      <button class="footer__btn" onclick="document.location='https://t.me/LVSTDVNCE'">Contact me <span>&gt;</span>
+        <!--<img src="./img/footerBtn.png" alt="" class="button__img">-->
+      </button>
+    </div>
+    <p class="footer__para-two">LVSTDVNCE 2024©  All rights is not reserved</p>
+  </footer>
+  <script src="./scripts/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script>
+    SmoothScroll({
+        // Время скролла 400 = 0.4 секунды
+        animationTime    : 800,
+        // Размер шага в пикселях 
+        stepSize         : 75,
+
+        // Дополнительные настройки:
+        
+        // Ускорение 
+        accelerationDelta : 30,  
+        // Максимальное ускорение
+        accelerationMax   : 2,   
+
+        // Поддержка клавиатуры
+        keyboardSupport   : true,  
+        // Шаг скролла стрелками на клавиатуре в пикселях
+        arrowScroll       : 50,
+
+        // Pulse (less tweakable)
+        // ratio of "tail" to "acceleration"
+        pulseAlgorithm   : true,
+        pulseScale       : 4,
+        pulseNormalize   : 1,
+
+        // Поддержка тачпада
+        touchpadSupport   : true,
+    })
+    </script>
+</body>
+</html>
